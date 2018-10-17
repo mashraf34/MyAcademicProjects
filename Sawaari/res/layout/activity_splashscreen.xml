@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcd200" >
+    
+ <ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="57dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/cute_vehicle"
+         />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sawaari"
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:layout_marginLeft="55dp"
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get your ride now!"
+        android:textColor="#ffffff"
+        android:textSize="20dp" 
+        android:layout_marginLeft="80dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="90dp"
+        android:text="2015 MAB All Rights Reserved"
+        android:textColor="#aba9a7"
+        android:textSize="15dp" />
+</LinearLayout>

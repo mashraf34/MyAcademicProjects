@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFBF7" >
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What Do I Have To Remind You About?" />
+
+      <EditText
+          android:id="@+id/alarmname"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/roundcorner"
+          android:ems="14" >
+
+          <requestFocus />
+      </EditText>
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Set Date" />
+
+    <DatePicker
+        android:id="@+id/pickerdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFBF7" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Time" />
+
+    <TimePicker
+        android:id="@+id/pickertime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFBF7" />
+
+    <Button
+        android:id="@+id/setalarm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/roundcorner"
+        android:text="Set Reminder" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
